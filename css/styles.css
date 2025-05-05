@@ -21,10 +21,10 @@ body {
 .content {
   height: 100%;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   gap: 60px;
   justify-content: space-between;
-      align-items: center;
+  align-items: center;
 }
 
 h1 {
@@ -48,10 +48,10 @@ main{
 /* 🔴 CSS Syntax Error here 👇 */
 .forms {
   width: 100%;
-     max-width: 964px;
+  max-width: 964px;
   margin: 0 auto;
   display: flex;
-   gap: 30px;
+  gap: 30px;
 }
 
 i {
@@ -82,7 +82,7 @@ i {
 .form-control,
 .form-input-group {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -106,7 +106,7 @@ i {
 .form-input-group input {
   display: flex;
   gap: 10px;
-      justify-content: space-between;
+  justify-content: space-between;
   padding: 12px;
   background: linear-gradient(45deg, #1e2338, #191e34);
   border: 1px solid #282d43;
@@ -129,7 +129,7 @@ i {
 /* 🔴 CSS Syntax Error here 👇 */
 .option-item-name .hint,
 .review-author-name .hint,
-.form-input-group .label {
+.form-input-group label {
   font-size: 12px;
   color: #b6b8c0;
 }
